@@ -11,7 +11,7 @@ $DestinationPath = Join-Path -Path $destination -ChildPath "\\TBX.lnk"
 $SourceExe = "C:\Program Files\Google\Chrome\Application\chrome_proxy.exe"
 $Shortcut = $WshShell.CreateShortcut($DestinationPath)
 $Shortcut.TargetPath = $SourceExe
-$Shortcut.arguments = "--app=https://thebenefitsexpert.com/"
+$Shortcut.arguments = "--app=https://thebenefitsexpert.com/enroll/login.aspx?ts=637889835040032787&Path=somatus/"
 $shortcut.IconLocation = "https://thebenefitsexpert.com/favicon.ico"
 $Shortcut.Save()
 }
@@ -50,7 +50,7 @@ $DestinationPath = Join-Path -Path $destination -ChildPath "\\TBX.lnk"
 $SourceExe = "C:\Program Files (x86)\Google\Chrome\Application\chrome_proxy.exe"
 $Shortcut = $WshShell.CreateShortcut($DestinationPath)
 $Shortcut.TargetPath = $SourceExe
-$Shortcut.arguments = "--app=https://thebenefitsexpert.com/"
+$Shortcut.arguments = "--app=https://thebenefitsexpert.com/enroll/login.aspx?ts=637889835040032787&Path=somatus/"
 $shortcut.IconLocation = "https://thebenefitsexpert.com/favicon.ico"
 $Shortcut.Save()
 }
